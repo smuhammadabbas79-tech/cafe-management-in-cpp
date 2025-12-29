@@ -17,6 +17,7 @@ string welcomeCustomer() {
 }
 
 int main() {
-    welcomeCustomer();   // function call
+    welcomeCustomer();
     return 0;
 }
+
