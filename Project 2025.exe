@@ -3,8 +3,8 @@ using namespace std;
 
 double calculateBill(double total, double &tax)
 {
-    tax = total * 0.08;      // 8% tax calculate
-    return total + tax;     // grand total return
+    tax = total * 0.08;    
+    return total + tax;    
 }
 
 int main()
@@ -19,3 +19,4 @@ int main()
 
     return 0;
 }
+
